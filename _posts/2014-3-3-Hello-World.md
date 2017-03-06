@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I was once up and running!
+title: Faster RCNN
 ---
 
 I can update my site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
@@ -10,20 +10,20 @@ I can update my site name, avatar and other options using the _config.yml file i
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
 
 
-<b>Faster RCNN</b><br>
+<b></b><br>
 I am trying to understand faster RCNN especially the ROI pooling part. The first part is familiar:<br><br>
 You process an image such as:<br>
-<img src="IMG_0744iii.jpg" />
+<img src="http://forthtemple.com/rcnn/IMG_0744iii.jpg" />
 <br>
 <br>
 through say 5 convolutional layers:<br>
-<img src="try.jpg" height="350"/>
+<img src="http://forthtemple.com/rcnn/try.jpg" height="350"/>
 <br>
 <br>
 For an image of say 300x300 you will get 512 x 13 x 13 grids with 512 for each of the kernels in conv5. Here I'm just showing two:<br>
-<img src="try2.jpg" width="100"/>
+<img src="http://forthtemple.com/rcnn/try2.jpg" width="100"/>
 ...
-<img src="try2.jpg" width="100"/>
+<img src="http://forthtemple.com/rcnn/try2.jpg" width="100"/>
 ...
 <br>
 <br>
