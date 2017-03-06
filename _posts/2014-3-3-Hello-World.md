@@ -3,14 +3,6 @@ layout: post
 title: Faster RCNN
 ---
 
-I can update my site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
-
-
-<b></b><br>
 I am trying to understand faster RCNN especially the ROI pooling part. The first part is familiar:<br><br>
 You process an image such as:<br>
 <img src="http://forthtemple.com/rcnn/IMG_0744iii.jpg" />
@@ -55,3 +47,12 @@ The 5 pools have been converted in 6 x 6 grids as seen in blue. In the first reg
 Each of these regions are then given scores for each class and those regions with high enough scores are used.<br>
 <br>
 My question is, that if the original pool size if 3x3 from the 13x13 grid, does this mean upscaling to 6x6 is wasted? Is my understanding of faster RCNN way off?
+
+
+I can update my site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+
+![_config.yml]({{ site.baseurl }}/images/config.png)
+
+The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+
+
