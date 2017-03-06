@@ -5,31 +5,31 @@ title: Faster RCNN
 
 I am trying to understand faster RCNN especially the ROI pooling part. The first part is familiar:<br><br>
 You process an image such as:<br>
-<img src="http://forthtemple.com/rcnn/IMG_0744iii.jpg" />
+<img src="http://forthtemple.com/fasterrcnn/IMG_0744iii.jpg" />
 <br>
 <br>
 through say 5 convolutional layers:<br>
-<img src="http://forthtemple.com/rcnn/try.jpg" height="350"/>
+<img src="http://forthtemple.com/fasterrcnn/try.jpg" height="350"/>
 <br>
 <br>
 For an image of say 300x300 you will get 512 x 13 x 13 grids with 512 for each of the kernels in conv5. Here I'm just showing two:<br>
-<img src="http://forthtemple.com/rcnn/try2.jpg" width="100"/>
+<img src="http://forthtemple.com/fasterrcnn/try2.jpg" width="100"/>
 ...
-<img src="http://forthtemple.com/rcnn/try2.jpg" width="100"/>
+<img src="http://forthtemple.com/fasterrcnn//try2.jpg" width="100"/>
 ...
 <br>
 <br>
 You generate say 1000 regions of interests. Then create say 1000 6x6 ROI pools for each of these regions. Here is simplified to 5 regions (instead 1000)<br>
-<img src="IMG_0744reg.jpg"/><br>
+<img src="http://forthtemple.com/fasterrcnn/IMG_0744reg.jpg"/><br>
 <br>
 On the 13x13 grid the regions are:<br>
-<img src="try3.jpg"/><br>
+<img src="http://forthtemple.com/fasterrcnn/try3.jpg"/><br>
 <br>
 You get five 6 x 6 ROI pools:<br>
 <table>
 <tr>
 <td>
-<img src="pool3.jpg"/></td><td><img src="pool4.jpg"/></td><td><img src="pool5.jpg"/></td><td><img src="pool1.jpg"/></td><td><img src="pool2.jpg"/></td>
+<img src="http://forthtemple.com/fasterrcnn/pool3.jpg"/></td><td><img src="http://forthtemple.com/fasterrcnn/pool4.jpg"/></td><td><img src="http://forthtemple.com/fasterrcnn/pool5.jpg"/></td><td><img src="http://forthtemple.com/fasterrcnn/pool1.jpg"/></td><td><img src="http://forthtemple.com/fasterrcnn/pool2.jpg"/></td>
 </tr>
 <tr>
 <td>
